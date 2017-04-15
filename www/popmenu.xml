@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE apopmenu>
+<menu name="Main" icons="true" font="sanserif" size="11" editable="true" adjustIcons="true">
+   <item name="Focusable" type="invokerstatecheck" property="Focusable"/>
+   <separator/>
+   <!-- This item is not afected by disablemap -->
+   <item name="Save" type="invokerstateitem" property="Modified"/>
+   <separator/>
+   <submenu name="Hintlist" type="gethintlist"/>
+</menu>

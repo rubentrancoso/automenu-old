@@ -1,0 +1,4 @@
+#!/bin/bash
+keytool -genkey -keystore automenu-certificate -alias automenu
+jarsigner -keystore automenu-certificate automenu-demo.jar automenu
+jarsigner -keystore automenu-certificate automenu.jar automenu

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp spec="1.0+" codebase="file:///home/trancoso/workspace/automenu/www">
+
+  <information>
+     <title>AutoMenu Demo</title>
+     <vendor>Ruben Trancoso</vendor>
+     <homepage href="index.html" />
+     <description>AutoMenu is an automatic swing menu generator to easy decople code using xml definitions.</description>
+     <offline-allowed />
+   </information>
+
+  <resources>
+     <j2se version="1.4+"/>
+     <jar href="automenu-demo.jar" main="true" />
+     <jar href="automenu.jar" />
+   </resources>
+
+  <application-desc main-class="automenu.demo.SandBox"/>
+
+  <security>
+     <all-permissions/>
+  </security>
+
+</jnlp>

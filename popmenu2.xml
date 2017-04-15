@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE apopmenu>
+<menu name="Main" icons="true" font="Tahoma" size="11" editable="true" adjustIcons="true">
+	<item id="10.10" name="Focusable" type="invokerstatecheck" property="Focusable"/>
+	<separator/>
+	<!-- This item is not afected by disablemap -->
+	<item id="10.20" name="Save" type="invokerstateitem" property="Modified"/>
+	<separator/>
+	<submenu id="10.30" name="Hintlist" type="gethintlist"/>
+   <submenu name="Check" shortcut="C"  disablemap="NoAccess">
+         <item id="50.10" name="Packed" shortcut="P" type="check" icon="icons/LayerDataIcon.gif"/>
+         <item id="50.20" name="Fresh" shortcut="F" type="check"/>
+         <item id="" name="Deliver" shortcut="D" type="check"/>
+	     <separator/>
+         <item id="" name="Invisible" type="action"/>
+		 <submenu name="Other">
+	         <item id="50.30.10" name="Check This" type="check"/>
+	     </submenu>
+		 <submenu name="Invisible">
+	         <item id="50.30.10" name="Invisible Check" type="check"/>
+	     </submenu>
+	     <separator/>
+         <item id="50.40" name="Revise" shortcut="R" type="check"/>
+         <item id="50.50" name="Forward" shortcut="w" type="check"/>
+   </submenu>
+	<separator/>
+	<item id="10.60" name="Load new Menu" shortcut="L" accelerator="ctrl L" type="action"/>
+</menu>

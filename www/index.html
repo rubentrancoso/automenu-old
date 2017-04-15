@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>AutoMenu - Java Swing XML automatic bar/popup menu generator</TITLE>
+	<style><!--
+	body,td,a,p,.h{font-family:arial,sans-serif;}
+	.q{color:#0000cc;}
+	-->
+	</style>
+	<META NAME="AUTHOR" CONTENT="Ruben Trancoso">
+	<META NAME="CREATED" CONTENT="20060526;22000900">
+	<META NAME="CHANGEDBY" CONTENT="Ruben Trancoso">
+	<META NAME="CHANGED" CONTENT="20060526;23491800">
+</HEAD>
+<BODY>
+<P>AutoMenu is an automatic menu generator that makes it easy to create JBarMenus and PopupMenus from XML definitions when building GUIs in Swing.
+<h2>Donate</h2>
+<P>If you think this software is usefull think about donate! This piece of software was made available for free and it toke a lot of development time to be done.
+<br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9871059">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<h2>AutoMenu 2.2</h2>
+<P>New 2.2 version (December 6, 2008)</P>
+<P>Added support I18N and Unique IDs on menuitems (thanks Pieter Voet)</P>
+<img src="screenshot.png">
+<P>Creating bar/popup menus was never so easy and elegant. From a simple XML file with bar/popup menu definitions and a line off code it's possible to build full menus with all functionality these components ever need to have.</P>
+<a href="download/automenu.jar">Download jar file</a>
+<P>last release: 2008 dec 19</P>
+<a href="download/commons-jxpath-1.3.jar">Download JXPath jar file (optional)</a><br>
+<a href="SandBox.java">Demo source</a><BR>
+<a href="EditField.java">EditField source</a><BR>
+<a href="barmenu.xml">BarMenu XML file sample</a><BR>
+<a href="popmenu.xml">PopMenu XML file sample</a><BR>
+<h3>Easy!</h3>
+<P>Never more write coupled code for menus.</P>
+<h3>Java Web Start demo (JRE 1.4+)</h3>
+<P><a href="automenu.jnlp"><img src="webstart.small.jpg.gif"></A></P>
+<h3>How it works</h3>
+<P>Bar/Popup menus are build directly from XML file, without need to hardcode menu functionalities to your code.</P>
+<h3>AutoMenu enabled projects</h3>
+<P>Let me add your project to the list.</P>
+<h3>Features</h3>
+<P>Ask for new features.</P>
+<P>Bar/Popup menu</P>
+<ul>
+<li>menu item
+<li>checkbox item
+<li>radio button item/group
+<li>separator
+<li>submenus
+<li>support icons
+<li>named disable map
+<li>event dispatcher
+<li>I18N support from propety files inside app jar or in filesystem
+<li>ID tag attribute to differentiate menu itens
+<li>change item state,raise action, set item/submenu invisible through xpath (if commons-jxpath-1.3.jar is present)
+</ul>
+<P>Popup menu</P>
+<ul>
+<li>invoker state item - a special item that can be enable/disable according the state returned by a named function from invoker
+<li>invoker state check - a special item used to change some named invoker state
+<li>hintlist - a special item that can dinamicaly build a submenu with given list itens from invoker
+</ul>
+<h3>Comments</h3>
+<P>What people think about AutoMenu. Send your comment to rubentrancoso at gmail dot com.</P>
+<h3>TODO</h3>
+<ul>
+<li>Start menu (like WinXP)
+<li>AutoToolbar
+<li>changeable icons for submenu state
+<li>document project
+<li>open popup according named menu given to invoker
+<li>enable popup over barmenu itens
+<li>drag-and-drop operations over barmenu
+<li>popup support for dinamic item insertion
+</ul>
+<br>
+<br>
+<br>
+<br>
+<!-- Site Meter -->
+<a href="http://s30.sitemeter.com/stats.asp?site=s30Automenu" target="_top">
+<img src="http://s30.sitemeter.com/meter.asp?site=s30Automenu" alt="Site Meter" border="0"/></a>
+<!-- Copyright (c)2009 Site Meter -->
+
+</BODY>
+</HTML>

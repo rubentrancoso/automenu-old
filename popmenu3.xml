@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE apopmenu>
+<menu name="Main" icons="true" font="Tahoma" size="11" editable="true" adjustIcons="true">
+	<item id="10.50" name="Load old Menu" shortcut="M" accelerator="ctrl M" type="action"/>
+</menu>

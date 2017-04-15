@@ -1,0 +1,9 @@
+- internationalization I18N (testar com jar file)
+- internationalization I18N em AMenuInvokerGetHintList
+- verificar a necessidade de carregar todos os populistener quando recarregar 
+  um menu popup dinamicamente (updateHolder)
+- definir actionCommand em AMenuInvokerGetHintList
+- definir shortcut e accelerator a partir de message.properties(?)
+- manter o diseblemap ao carregar menu
+- manter o estado do menu entre as cargas
+- acessar as escolhas feitas nos grupos por xpath

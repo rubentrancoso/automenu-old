@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding = "ASCII"?>
+<!DOCTYPE abarmenu>
+<menu name="Main" icons="true" font="Tahoma" size="11" adjustIcons="true">
+   <submenu name="File" shortcut="F" icon="icons/LayerDataIcon.gif" disablemap="NoAccess">
+      <item id="10.10" name="fileMenu.New" shortcut="N" accelerator="ctrl N" type="action"/>
+      <item id="10.20" name="fileMenu.Open" shortcut="O" accelerator="ctrl O" type="action"/>
+      <item id="10.30" name="fileMenu.Save" shortcut="S" accelerator="ctrl S" type="action" disablemap="NoSave"/>
+      <item id="10.40" name="See tooltip" type="action" tooltip="Hello world!"/>
+      <separator/>
+      <item id="10.50" name="Load Menu" shortcut="M" accelerator="ctrl M" type="action"/>
+      <item id="10.60" name="Load new Menu" shortcut="L" accelerator="ctrl L" type="action"/>
+      <separator/>
+      <item id="10.70" name="Quit" shortcut="Q" accelerator="ctrl Q" type="action"/>
+   </submenu>
+   <submenu name="DisableMap" shortcut="D">
+       <item id="20.10" name="None" shortcut="C" type="radio" group="DisableMap" selected="true"/>
+       <item id="20.20" name="NoSave" shortcut="s" type="radio" group="DisableMap"/>
+       <item id="20.30" name="NoAccess" shortcut="a" type="radio" group="DisableMap"/>
+   </submenu>
+   <submenu name="Submenus" shortcut="S" disablemap="NoAccess">
+	   <submenu name="Users" shortcut="U" icon="icons/LayerDataIcon.gif">
+	      <item id="30.10.10" name="Add user" shortcut="A" type="action"/>
+    	  <item id="30.10.20" name="Delete user" shortcut="D" type="action"/>
+	   </submenu>
+	   <submenu name="Groups" shortcut="G">
+	      <item id="30.20.10" name="Add group" shortcut="A" type="action"/>
+    	  <item id="30.20.20" name="Delete group" shortcut="D" type="action"/>
+	   </submenu>
+       <separator/>
+	   <submenu name="Sofware" shortcut="S">
+	      <item id="30.30.10" name="Add software" shortcut="A" type="action"/>
+    	  <item id="30.30.20" name="Delete software" shortcut="D" type="action"/>
+	   </submenu>
+	   <submenu name="Hardware" shortcut="H">
+	      <item id="30.40.10" name="Add hardware" shortcut="A" type="action" icon="icons/LayerDataIcon.gif"/>
+    	  <item id="30.40.20" name="Delete hardware" shortcut="D" type="action"/>
+	   </submenu>
+       <item id="30.50" name="Test" shortcut="T" type="action"/>
+   </submenu>
+   <submenu name="Radio" shortcut="R"  disablemap="NoAccess">
+         <item id="40.10" name="Apple" shortcut="A" type="radio" group="Fruits" selected="true"  icon="icons/LayerDataIcon.gif"/>
+         <item id="40.20" name="Orange" shortcut="O" type="radio" group="Fruits"/>
+	     <separator/>
+         <item id="40.30" name="Big" shortcut="B" type="radio" group="Size" selected="true"/>
+         <item id="40.40" name="Small" shortcut="S" type="radio" group="Size"/>
+   </submenu>
+   <submenu name="Check" shortcut="C"  disablemap="NoAccess">
+         <item id="50.10" name="Packed" shortcut="P" type="check" icon="icons/LayerDataIcon.gif"/>
+         <item id="50.20" name="Fresh" shortcut="F" type="check"/>
+         <item id="" name="Deliver" shortcut="D" type="check"/>
+	     <separator/>
+         <item id="" name="Invisible" type="action"/>
+		 <submenu name="Other">
+	         <item id="50.30.10" name="Check This" type="check"/>
+	     </submenu>
+		 <submenu name="Invisible">
+	         <item id="50.30.10" name="Invisible Check" type="check"/>
+	     </submenu>
+	     <separator/>
+         <item id="50.40" name="Revise" shortcut="R" type="check"/>
+         <item id="50.50" name="Forward" shortcut="w" type="check"/>
+   </submenu>
+   <submenu name="Help" shortcut="H">
+       <item id="60.10" name="About AutoMenu" shortcut="A" type="action" disablemap="NoAccess"/>
+   </submenu>
+</menu>
